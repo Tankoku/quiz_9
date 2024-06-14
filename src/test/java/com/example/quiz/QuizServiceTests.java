@@ -102,10 +102,11 @@ public class QuizServiceTests {
 		res = quizService.createOrUpdate(req);
 		Assert.isTrue(res.getStatusCode() == 200, "create test false");
 	}
-	
+	@Test
+	public void createOrUpdateTest() {
 	
 }
-
+}
 
 
 
